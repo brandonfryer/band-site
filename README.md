@@ -1,1 +1,2 @@
 # band-site
+This is the product of a series of beginer web develoment courses that I have followed. The result is a webpage for the DJ GRiZ. I've added several images from his actual website and styled similarly in order to practice my css and js knowledge I've aquired throughout the series.
