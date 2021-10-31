@@ -136,29 +136,39 @@ html, body {
     border-radius: 50%;
 }
 
-.main-footer {
+.footer-container {
+    display: flex;
     background-color: #56CCF2;
     color: #FFF;
-    padding: .25em 0;
 }
 
-.main-footer-container {
+.footer-left {
+    padding-left: 10px;
+    width: 50%;
+}
+
+.footer-right {
+    margin-top: 0;
+    padding-right: 5px;
+    width: 50%;
+}
+
+.footer-nav {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-}
-
-.main-footer-container ul {
-    flex-grow: 1;
-    text-align: end;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 .footer-nav li {
-    padding: 0 .5em;
+    display: inline;
 }
 
-.footer-nav img {
-    width: 30px;
-    height: 30px;
+.footer-right img {
+    margin: 5px;
+    width: 45px;
 }
 
 .album-preview {
